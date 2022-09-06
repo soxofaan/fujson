@@ -1,5 +1,7 @@
-import pytest
 import io
+
+import pytest
+
 from fujson import FuJsonEncoder, dump, dumps
 
 
