@@ -31,3 +31,14 @@ def _build_float(float_format: str = "f") -> type:
             return format(self, float_format)
 
     return _Float
+
+
+def dump(obj, fp, *, float_format: str = "f", **kwargs):
+    encoder = FuJsonEncoder(float_format=float_format, **kwargs)
+    for chunk in encoder.iterencode(obj):
+        fp.write(chunk)
+
+
+def dumps(obj, *, float_format: str = "f", **kwargs) -> str:
+    encoder = FuJsonEncoder(float_format=float_format, **kwargs)
+    return encoder.encode(obj)
