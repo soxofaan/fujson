@@ -1,4 +1,9 @@
 
+![PyPI](https://img.shields.io/pypi/v/fujson)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fujson)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/fujson)
+
+
 # FuJSON: less decimals, more fuzzy JSON
 
 FuJSON is a Python module that allows to control the 
