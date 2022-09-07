@@ -29,5 +29,5 @@ classifiers = [
 "Bug Tracker" = "https://github.com/soxofaan/fujson/issues"
 
 [tool.hatch.build]
-sources = ["src"]
-include = ["src/*.py"]
+only-include = ["fujson.py"]
+
