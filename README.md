@@ -2,7 +2,7 @@
 ![PyPI](https://img.shields.io/pypi/v/fujson)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fujson)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/fujson)
-
+[![Tests](https://github.com/soxofaan/fujson/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/soxofaan/fujson/actions/workflows/test.yaml)
 
 # FuJSON: less decimals, more fuzzy JSON
 
